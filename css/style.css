@@ -1,0 +1,4 @@
+.loading-img {
+    background: url(/public/img/头像.png) no-repeat center center;
+    background-size: cover;
+}
