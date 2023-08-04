@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2023/08/04/hello-world/"/>
-      <url>/2023/08/04/hello-world/</url>
+      <title>网站&amp;博客开发日志 Ver1.5</title>
+      <link href="/2023/08/04/%E7%BD%91%E7%AB%99&amp;%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/%E7%BD%91%E7%AB%99&amp;%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97%20Ver1.5/"/>
+      <url>/2023/08/04/%E7%BD%91%E7%AB%99&amp;%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/%E7%BD%91%E7%AB%99&amp;%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97%20Ver1.5/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>欢迎来到“凌音天羽笔记屋”！<br>此文档为开发文档 Ver1.5</p><p>本次更新为Ver 1.5更新，新增了一些功能以及修改了部分内容。<br>本次更新的所有内容通过GitHub Pages部署至互联网。</p><p>已上线内容：<br>·网站&amp;博客于2023年7月30日22：40开始开发<br>·新增标签页<br>·新增分类页<br>·新增关于页<br>·增加了页面动画<br>·增加了留言页面<br>·新增了外挂标签<br>·新增页面加载动画<br>·增加了文章更新通知<br>·新增主页文章轮播图<br>·主页更改为双栏布局<br>·网站更改为一图流样式<br>·新增了顶部加载条动画<br>·新增流星背景，可在暗色模式下启用<br>·更改了文章配置，每页单独显示背景图<br>·新增了离开当前网站后，页面顶部的显示内容（站点动态title）<br>·新增了自定义右键菜单（如果需要返回系统菜单，使用ctrl+鼠标左键）</p><p>关于导航栏的改动：<br>·修改了导航栏为常驻效果<br>·新增导航栏显示文章标题<br>·新增导航栏快速回到顶部<br>·更改了导航栏部分UI图标<br>·更改了搜索栏，现在搜索栏居右<br>·更改了导航栏，现在导航栏居中<br>·网站标题效果增强，增加了快速返回首页功能<br>·导航栏效果增强，现在有更明显的鼠标悬停反馈</p><p>未来上线内容：<br>·评论系统<br>·使用域名<br>·使用服务器<br>·GitHub贡献日历</p>]]></content>
       
       
+      <categories>
+          
+          <category> 开发日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 开发日志 </tag>
+            
+        </tags>
       
     </entry>
     
