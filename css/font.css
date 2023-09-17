@@ -2,9 +2,9 @@
   font-family: "iconfont"; /* Project id 4004109 */
   /* Color fonts */
   src: 
-       url('iconfont.woff2?t=1690738236477') format('woff2'),
-       url('iconfont.woff?t=1690738236477') format('woff'),
-       url('iconfont.ttf?t=1690738236477') format('truetype');
+       url('iconfont.woff2?t=1694870733493') format('woff2'),
+       url('iconfont.woff?t=1694870733493') format('woff'),
+       url('iconfont.ttf?t=1694870733493') format('truetype');
 }
 
 .iconfont {
@@ -13,6 +13,14 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wodexinxi:before {
+  content: "\e65b";
+}
+
+.icon-rizhi:before {
+  content: "\e60f";
 }
 
 .icon-biaoqian_1:before {
