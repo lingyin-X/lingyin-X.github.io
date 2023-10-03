@@ -92,14 +92,14 @@
 
   
   <url>
-    <loc>https://www.lingyin.xyz/tags/Hexo/</loc>
+    <loc>https://www.lingyin.xyz/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2023-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lingyin.xyz/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://www.lingyin.xyz/tags/Hexo/</loc>
     <lastmod>2023-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -108,14 +108,14 @@
 
   
   <url>
-    <loc>https://www.lingyin.xyz/categories/Hexo/</loc>
+    <loc>https://www.lingyin.xyz/categories/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2023-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lingyin.xyz/categories/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://www.lingyin.xyz/categories/Hexo/</loc>
     <lastmod>2023-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
