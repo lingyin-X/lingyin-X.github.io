@@ -200,21 +200,7 @@
 
   
   <url>
-    <loc>https://www.lingyin.xyz/tags/Hexo/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.lingyin.xyz/tags/%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.lingyin.xyz/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -227,14 +213,21 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://www.lingyin.xyz/categories/Hexo/</loc>
+    <loc>https://www.lingyin.xyz/tags/Hexo/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+  <url>
+    <loc>https://www.lingyin.xyz/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
   
   <url>
     <loc>https://www.lingyin.xyz/categories/%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</loc>
@@ -244,14 +237,21 @@
   </url>
   
   <url>
-    <loc>https://www.lingyin.xyz/categories/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://www.lingyin.xyz/categories/%E6%95%B0%E5%AD%97%E5%AA%92%E4%BD%93%E8%89%BA%E6%9C%AF%E6%A6%82%E8%AE%BA/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.lingyin.xyz/categories/%E6%95%B0%E5%AD%97%E5%AA%92%E4%BD%93%E8%89%BA%E6%9C%AF%E6%A6%82%E8%AE%BA/</loc>
+    <loc>https://www.lingyin.xyz/categories/Hexo/</loc>
+    <lastmod>2024-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lingyin.xyz/categories/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2024-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
