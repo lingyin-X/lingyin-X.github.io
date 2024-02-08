@@ -100,7 +100,7 @@ rmf.copyWordsLink = function () {
     Snackbar.show({
         text: '链接复制成功！快去分享吧！',
         pos: 'top-right',
-        showAction: false
+        showAction: true
     });
 }
 rmf.switchReadMode = function () {
