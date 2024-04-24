@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.lingyin.xyz/posts/10165.html</loc>
+    
+    <lastmod>2024-04-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.lingyin.xyz/posts/52743.html</loc>
     
     <lastmod>2024-04-24</lastmod>
@@ -167,15 +176,6 @@
     <loc>https://www.lingyin.xyz/posts/5807.html</loc>
     
     <lastmod>2024-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.lingyin.xyz/posts/10165.html</loc>
-    
-    <lastmod>2024-04-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
