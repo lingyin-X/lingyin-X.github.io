@@ -49,89 +49,82 @@
     color: #f7c768;
   }
   
-  /* bilibli番剧插件 */
-  #article-container .bangumi-tab.bangumi-active {
-    background: var(--anzhiyu-theme);
-    color: var(--anzhiyu-ahoverbg);
-    border-radius: 10px;
-  }
-  a.bangumi-tab:hover {
-    text-decoration: none !important;
-  }
-  .bangumi-button:hover {
-    background: var(--anzhiyu-theme) !important;
-    border-radius: 10px !important;
-    color: var(--anzhiyu-ahoverbg) !important;
-  }
-  a.bangumi-button.bangumi-nextpage:hover {
-    text-decoration: none !important;
-  }
-  .bangumi-button {
-    padding: 5px 10px !important;
-  }
-  
-  a.bangumi-tab {
-    padding: 5px 10px !important;
-  }
-  svg.icon.faa-tada {
-    font-size: 1.1em;
-  }
-  .bangumi-info-item {
-    border-right: 1px solid #f2b94b;
-  }
-  .bangumi-info-item span {
-    color: #f2b94b;
-  }
-  .bangumi-info-item em {
-    color: #f2b94b;
-  }
-  
-  /* 解决artitalk的图标问题 */
-  #uploadSource > svg {
-    width: 1.19em;
-    height: 1.5em;
-  }
-  
-  /*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
-  #page-header:not(.not-top-img):before {
-    background-color: transparent !important;
+  :root {
+    --trans-light: rgba(255, 255, 255, 0.88);
+    --trans-dark: rgba(25, 25, 25, 0.88);
+    --border-style: 1px solid rgb(169, 169, 169);
+    --backdrop-filter: blur(5px) saturate(150%);
   }
   
   /* 首页文章卡片 */
   #recent-posts > .recent-post-item {
     background: rgba(255, 255, 255, 0.9);
+    border: var(--border-style);
   }
   
   /* 首页侧栏卡片 */
   #aside-content .card-widget {
     background: rgba(255, 255, 255, 0.9);
+    border: var(--border-style);
   }
   
   /* 文章页面正文背景 */
   div#post {
-    background: rgba(255, 255, 255, 0.9);
+    background: var(--trans-light);
+    border: var(--border-style);
   }
   
   /* 分页页面 */
   div#page {
     background: rgba(255, 255, 255, 0.9);
+    border: var(--border-style);
   }
   
   /* 归档页面 */
   div#archive {
     background: rgba(255, 255, 255, 0.9);
+    border: var(--border-style);
   }
   
   /* 标签页面 */
   div#tag {
     background: rgba(255, 255, 255, 0.9);
+    border: var(--border-style);
   }
   
   /* 分类页面 */
   div#category {
     background: rgba(255, 255, 255, 0.9);
+    border: var(--border-style);
   }
-  
+
+  /* 白天模式头图与页脚遮罩 */
+  [data-theme="light"] #page-header:before,
+  [data-theme="light"] #footer::before {
+  background-color: rgba(0, 0, 0, 0.20) !important;
+  z-index: -3;
+  }
+
+  /* 头图透明 */
+  #page-header {
+    background: transparent !important;
+  }
+
+  /* 页脚透明 */
+  #footer {
+    background: transparent !important;
+  }
+
+  /* 夜间模式头部遮罩隐藏 */
+  [data-theme="dark"] #page-header::before {
+  background: transparent !important;
+  }
+
+  /* 夜间模式页脚遮罩隐藏 */
+  [data-theme="dark"] #footer::before {
+  background: transparent !important;
+  }
+
   /*夜间模式伪类遮罩层透明*/
   [data-theme="dark"] #recent-posts > .recent-post-item {
     background: #121212;
@@ -164,15 +157,6 @@
   [data-theme="dark"] div#category {
     background: transparent !important;
   }
-  /* 页脚透明 */
-  #footer {
-    background: transparent !important;
-  }
-  
-  /* 头图透明 */
-  #page-header {
-    background: transparent !important;
-  }
   
   #rightside > div > button {
     border-radius: 5px;
@@ -198,29 +182,7 @@
     color: #fff;
     background-color: #3b70fc;
   }
-  
-  /* 音乐播放器 */
-  
-  /* .aplayer .aplayer-lrc {
-    display: none !important;
-  } */
-  
-  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-    left: -66px !important;
-    transition: all 0.3s;
-    /* 默认情况下缩进左侧66px，只留一点箭头部分 */
-  }
-  
-  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-    left: 0 !important;
-    transition: all 0.3s;
-    /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
-  }
-  
-  .aplayer.aplayer-fixed {
-    z-index: 999999 !important;
-  }
-  
+
   /* 评论框  */
   .vwrap {
     box-shadow: 2px 2px 5px #bbb;
@@ -348,7 +310,7 @@
   }
   
   #body-wrap.error .aside-list .aside-list-item .content .title {
-    -webkit-line-clamp: 2;
+    line-clamp: 2;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -392,8 +354,133 @@
   background: #1e1e1e;
   color: antiquewhite;
 }
+
+/*哔哩哔哩视频适配*/
+.aspect-ratio {
+  position: relative;
+  width: 90%;
+  height: auto;
+  padding-bottom: 75%;
+  margin: 3% auto;
+  text-align: center;
+}
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 86%;
+  left: 0;
+  top: 0;
+}
+
 /* 鼠标悬浮状态 */
 [data-theme="dark"] .magnet_link_context:hover {
-  background: hwb(36 55% 0%);
+  background: #3ecdf1;
   color: #f2f2f2;
+}
+
+/* 鼠标样式 */
+#cursor {
+  position: fixed;
+  width: 16px;
+  height: 16px;
+  /* 这里改变跟随的底色 */
+  background: rgb(255,147,59);
+  border-radius: 8px;
+  opacity: 0.25;
+  z-index: 10086;
+  pointer-events: none;
+  transition: 0.2s ease-in-out;
+  transition-property: background, opacity, transform;
+}
+
+#cursor.hidden {
+  opacity: 0;
+}
+
+#cursor.hover {
+  opacity: 0.1;
+  transform: scale(2.5);
+  -webkit-transform: scale(2.5);
+  -moz-transform: scale(2.5);
+  -ms-transform: scale(2.5);
+  -o-transform: scale(2.5);
+}
+
+#cursor.active {
+  opacity: 0.5;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+}
+
+/* 信息卡片头像状态 */
+.card-info-avatar .author-status-box {
+  position: absolute;
+  bottom: 0;
+  left: calc(100% - 28px);
+  width: 28px;
+  height: 28px;
+  border: 1px solid #d0d7de;
+  border-radius: 2em;
+  background-color: #f8f8f8f8;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .card-info-avatar .author-status-box {
+  background-color: #222222f2;
+  border: 1px solid #5c6060;
+}
+
+.card-info-avatar .author-status-box .author-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  padding: 0 5px;
+}
+
+.card-info-avatar .author-status-box:hover {
+  width: 105px;
+}
+
+.card-info-avatar .author-status-box:hover .author-status span {
+  width: 105px;
+  margin-left: 4px;
+}
+
+.card-info-avatar .author-status-box .author-status span {
+  width: 0;
+  font-size: 12px;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: 0.4s;
+}
+
+.card-widget .card-info-avatar {
+  display: inline-block;
+  position: relative;
+}
+
+/* 全局宽度 */
+.layout {
+  max-width: 1400px;
+}
+
+/* 侧边卡片栏宽度 */
+.aside-content {
+  max-width: 318px;
+  min-width: 300px;
+}
+
+/* 平板尺寸自适应(不启用侧边栏宽度限制) */
+@media screen and (max-width: 900px) {
+  .aside-content {
+    max-width: none !important;
+    padding: 0 5px 0 5px;
+  }
 }
