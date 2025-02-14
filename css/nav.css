@@ -24,7 +24,7 @@
 }
 
 .site-page:hover {
-    background-color: hwb(27 23% 0%);
+    background-color: #6899c0;
     box-shadow: 0 0 3px var(--mlemontx-theme) !important;
     border-radius: 20px;
 }
@@ -41,7 +41,7 @@
 
 .site-name::before {
     opacity: 0;
-    background-color: hwb(27 23% 0%);
+    background-color: #6899c0;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -102,7 +102,7 @@
     top: 0;
     left: 0;
     content: '回到顶部';
-    background-color: hwb(27 23% 0%);
+    background-color: #6899c0;
     transition: all .3s;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
